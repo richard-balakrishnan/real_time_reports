@@ -123,6 +123,16 @@
     border: 0;
 }
 
+#real_time_reports_section .card:hover{
+    transform: translateY(-0.25rem);
+    /* box-shadow: rgb(46 41 51 / 8%) 0px 2px 4px, rgb(71 63 79 / 16%) 0px 5px 10px; */
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+
 #real_time_reports_section .card-img-top{
     background-repeat: no-repeat;
     background-size: 100% 100%;
