@@ -140,6 +140,19 @@
     border-radius: 8px;
 }
 
+#real_time_reports_section .card-title{
+  font-size: large;
+}
+
+#real_time_reports_section .card-text.text-truncate.text-truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  font-size: small;
+  font-weight: 400;
+}
+
 /* sections ends */
 
 

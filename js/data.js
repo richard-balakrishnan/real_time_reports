@@ -63,8 +63,8 @@ const reportData = [
     category: "Analysis"
   },
   {
-    name: "Consolidated balance report",
-    title: "Consolidated balance report",
+    name: "Consolidated balance sheet",
+    title: "Consolidated balance sheet",
     description: "The consolidated balance sheet RDLC report represents the assets and liabilities of a company.",
     Image: "consolidated balance report",
     category: "Sales"

@@ -152,6 +152,6 @@ var template = `
         <img src="./asset/{{image}}.png" class="card-img-top" id="real_time_reports_img" alt="real time report image">
         <div class="card-body">
             <h5 class="card-title">{{title}}</h5>
-            <p class="card-text">{{content}}</p>
+            <p class="card-text text-truncate text-truncate-2">{{content}}</p>
         </div>
     </div>`;
