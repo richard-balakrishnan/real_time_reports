@@ -140,6 +140,12 @@
     border-radius: 8px;
 }
 
+#real_time_reports_section .badge{
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
+
 #real_time_reports_section .card-title{
   font-size: large;
 }

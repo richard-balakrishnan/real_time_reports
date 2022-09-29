@@ -56,7 +56,7 @@ function renderRealTimeReports() {
       let makerTemp = template
         .replace("{{title}}", value.title)
         .replace("{{content}}", value.description)
-        .replace("{{category}}", value.category)
+        .replace(/{{category}}/g, value.category)
         .replace("{{image}}", value.Image);
       let appendTo = document.querySelector("#real_time_reports_section .row");
       let div = document.createElement("div");
@@ -149,7 +149,10 @@ var drpTemplate = `<a class="dropdown-item {{isActive}}">{{item}}</a>`;
 
 var template = `
     <div class="card h-100 {{category}}">
-        <img src="./asset/{{image}}.png" class="card-img-top" id="real_time_reports_img" alt="real time report image">
+        <div style="position:relative;">
+            <img src="./asset/{{image}}.png" class="card-img-top" id="real_time_reports_img" alt="real time report image">
+            <span class="badge rounded-pill bg-warning"> {{category}} </span>
+        </div>
         <div class="card-body">
             <h5 class="card-title">{{title}}</h5>
             <p class="card-text text-truncate text-truncate-2">{{content}}</p>
